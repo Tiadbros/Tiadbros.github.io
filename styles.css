@@ -1,0 +1,215 @@
+/* styles.css */
+
+/* Allgemeine Stile */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5ede2;
+    color: #000000;
+}
+
+/* Header-Stile */
+header {
+    background-color: #622f13;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigationsleiste */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Footer-Stile */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Formularstile */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Bildstil */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Stile für Abschnitte */
+section {
+    margin-bottom: 20px;
+}
+
+/* Linkstile */
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Galerie-Stile für Produkte */
+.product-gallery {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.product-gallery img {
+    width: 400px; /* Gleiche Breite für alle Bilder */
+    height: 300px; /* Gleiche Höhe für alle Bilder */
+    object-fit: cover; /* Schneidet Bild zu, um das Seitenverhältnis beizubehalten */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Galerie-Stile für Dienstleistungen */
+.service-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-image img {
+    max-width: 100%; /* Bild wird nicht breiter als der Container */
+    height: auto;
+    max-width: 1000px; /* Maximale Breite für das Bild */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Galerie-Stile für Über uns */
+.about-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-image img {
+    max-width: 100%; /* Bild wird nicht breiter als der Container */
+    height: auto;
+    max-width: 600px; /* Maximale Breite für das Bild */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Galerie-barrel */
+.barrel-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.barrel-image img {
+    max-width: 100%; /* Bild wird nicht breiter als der Container */
+    height: auto;
+    max-width: 1000px; /* Maximale Breite für das Bild */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Galerie-map-screenshot */
+.map-screenshot {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.map-screenshot img {
+    max-width: 100%; /* Bild wird nicht breiter als der Container */
+    height: auto;
+    max-width: 900px; /* Maximale Breite für das Bild */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.content {
+    /*max-width: 48%; */
+    width: 100%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    /* Aligns the children items in a row direction */
+    display: flex;
+}
+
+.left-element {
+    margin-left: 50px;
+    margin-right: 50px;
+}
